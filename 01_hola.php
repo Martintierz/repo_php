@@ -75,5 +75,15 @@ adios
     $notas["Koke"] = 10;
 
    print_r ($notas);
-
 ?>
+
+<br>
+
+<?php
+    function saludar(){
+        echo "Hola";
+    }
+
+    saludar();
+?>
+
