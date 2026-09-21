@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="alertabloqueo.js"></script>
+    <script src="alertasinbloqueo.js" async></script>
+    <script>
+        function myFuncion(){
+            document.getElementById("demo").innerHTML="Nuevo Texto";
+        }
+    </script>
+    <script src="ej1.js" defer></script>
+    <script>
+        console.log("Hola desde la consola");
+    </script>
+    <script>
+        function funcionalerta(){
+            alert("Alerta");
+        }
+    </script>
+    
+</head>
+<body>
+   
+    <p id="t1">Hola Mundo</p>
+
+    <button type="button" onclick="miFuncion()">Clicka</button>
+   
+    <h1 id="demo"> Un texto cualquiera</h1>
+
+    <button type="button" onclick="myFuncion()">Pulsame</button>
+
+    <button type="button" onclick="funcionalerta()">Alerta</button>
+
+</body>
+</html>
