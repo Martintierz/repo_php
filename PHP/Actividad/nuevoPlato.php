@@ -7,8 +7,18 @@
 </head>
 <body>
     <?php
-        include "navegador/nav.php";
+        include "componentes/nav.php";
     ?>
-    <form action="guardarPlato.php"></form>
+    <h1>Inroduce el Plato</h1>
+    <form action="guardarPlato.php" metod="get">
+        <label for="nombre">Nombre del plato: </lable><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+        <label for="precio">Introduce el precio</label><br>
+        <input type="text" id="precio" name="precio" min=1 required><br>
+        <label for="tipo">Introduce el tipo</label><br>
+        <input type="text" id="tipo" name="tipo" required><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
 </body>
 </html>
