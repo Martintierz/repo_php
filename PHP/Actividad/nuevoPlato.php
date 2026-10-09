@@ -14,7 +14,7 @@
         <label for="nombre">Nombre del plato: </lable><br>
         <input type="text" id="nombre" name="nombre" required><br>
         <label for="precio">Introduce el precio</label><br>
-        <input type="text" id="precio" name="precio" min=1 required><br>
+        <input type="number" id="precio" name="precio" min=1 step="0.01" required><br>
         <label for="tipo">Introduce el tipo</label><br>
         <input type="text" id="tipo" name="tipo" required><br><br>
 
