@@ -16,7 +16,10 @@
         <label for="precio">Introduce el precio</label><br>
         <input type="number" id="precio" name="precio" min=1 step="0.01" required><br>
         <label for="tipo">Introduce el tipo</label><br>
-        <input type="text" id="tipo" name="tipo" required><br><br>
+        <input type="text" id="tipo" name="tipo" required><br>
+        <p><b>Ingredientes</b></p>
+        <lable>Pan</lable>
+        <input type="checkbox"><br><br>
 
         <input type="submit" value="Enviar">
     </form>
