@@ -19,35 +19,7 @@
         <input type="submit" value="Buscar">
     </form>
     <?php
-        $menu = [
-            new Plato(
-                'Migas',
-                12,
-                'Primero'
-            ),
-            new Plato(
-                'Chuleton',
-                25,
-                'Segundo'
-            ),
-            new Plato(
-                'Crema Catalana',
-                7,
-                'Postre'
-            )
-        ];
-
-        foreach($menu as $plato){
-            if($tipo == $plato -> tipo || $tipo == ''){
-                echo '<li>';
-                echo '<p>' . $plato->nombre . '</p>';
-                echo '<p>' . $plato->precio . '</p>';
-                echo '<p>' . $plato->tipo . '</p>';
-                echo '<button type="submit">Borrar</button>';
-                echo '<button type="submit">Editar</button>';
-                echo '</li>';
-            }
-        }
+        
     ?>
 
 </body>

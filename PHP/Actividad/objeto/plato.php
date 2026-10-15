@@ -1,5 +1,5 @@
 <?php
-    class plato{
+    class Plato{
         public $nombre;
         public $precio;
         public $tipo;

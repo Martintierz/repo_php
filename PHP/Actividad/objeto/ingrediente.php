@@ -1,5 +1,5 @@
 <?php 
-    class ingrediente{
+    class Ingrediente{
         public $nombreIngrediente;
 
         function __construct($nombreIngrediente){
